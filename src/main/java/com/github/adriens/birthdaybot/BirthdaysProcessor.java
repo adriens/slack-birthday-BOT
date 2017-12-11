@@ -94,6 +94,7 @@ public class BirthdaysProcessor {
     public static void main(String[] args){
         // parameters
         String csv = "data/birthdays.csv";
+        // fake accounts
         String giphyApiKey = "dc6zaTOxFJmzCZ";
         String slackWebhookUrl = "https://hooks.slack.com/services/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Z";
         // do the job
