@@ -46,7 +46,7 @@ public class BirthdaysProcessor {
         Statement stmt = conn.createStatement();
 
         // create table as load csv in h2 table
-        stmt.execute("CREATE TABLE _birthdays (username varchar primary key, dob DATE not null, msg varchar) AS SELECT * from CSVREAD('" + csvFilename + "',NULL,'charset=UTF-8 fieldSeparator=;');");
+        stmt.execute("CREATE TABLE _birthdays (username varchar primary key, dob DATE not null, msg varchar) AS SELECT * from CSVREAD('" + csvFilename + "',NULL,'charset=UTF-8 fieldSeparator=,');");
         logger.info("Staging birthdays table successfully loaded.");
     }
 

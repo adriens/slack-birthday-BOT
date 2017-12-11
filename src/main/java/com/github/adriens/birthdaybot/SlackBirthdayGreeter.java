@@ -28,9 +28,9 @@ public class SlackBirthdayGreeter {
     public final static String BOT_GIPHY_KEYWORDS = "Happy birthday";
     public final static String BOT_SLACK_COLOR = "good";
     public final static String BOT_SLACK_AUTHOR_ICON = "https://png.icons8.com/ios/540/bot.png";
-    public final static String BOT_SLACK_AUTHOR_LINK = "https://github.com/adriens";
+    public final static String BOT_SLACK_AUTHOR_LINK = "https://www.linkedin.com/in/adrien-sales-898b7270/";
     public final static String BOT_SLACK_AUTHOR_NAME = "birthday-BOT";
-    public final static String BOT_SLACK_FOOTER = "Brought to you by birthday-BOT, visit https://github.com/adriens for more.";
+    public final static String BOT_SLACK_FOOTER = "Brought to you by birthday-BOT, visit https://github.com/adriens/slack-birthday-BOT for more.";
     public final static String BOT_SLACK_TITLE = "Time to celebrate a Happy Birthday !";
     public final static String BOT_SLACK_ICON = ":birthday:"; // Ref - http://www.emoji-cheat-sheet.com/
     public final static String BOT_SLACK_CHANNEL = "#birthdays";
