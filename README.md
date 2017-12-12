@@ -21,10 +21,15 @@ To make this integration operational, all you need is :
 
 All of these items are available for free.
 
+# Command line
+
+mvn exec:java -DgiphyApiKey=YOUR_GIPHY_API_KEY -DslackWebhookUrl=YOUR_SLACK_WEBHOOK_URL
+
+# Deployment instructions
+
 # Acknowledgements
 
 - Thanks to [Gabriel Pedro](https://github.com/gpedro) for his very efficient [slack-webhook](https://github.com/gpedro/slack-webhook) library, and very kind support on my features requests
 - Thanks to [Mathias Markl](https://github.com/keshrath) for his [Giphy4J](https://github.com/keshrath/Giphy4J) Giphy lib
 
-# Deployment instructions
 
