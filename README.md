@@ -1,4 +1,4 @@
-# birthday-BOT
+# Slack birthday-BOT
 
 A slack BOT that simply reminds Birthdays the funny way with animated random [Giphy](https://giphy.com/) GIFs... for free !
 
