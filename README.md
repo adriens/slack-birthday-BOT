@@ -13,7 +13,7 @@ using free plans on Slack.***
 
 To make this integration operational, all you need is :
 
-- A slack Webhook url dedicated to a channel
+- A slack Webhook url dedicated to the  ```birthdays``` channel (private or public)
 - A Giphy API token
 - A place to run your daily Job ([Travis cron jobs](https://docs.travis-ci.com/user/cron-jobs/) is a good place to do that so all your stuff is in the cloud)...but you can run it wherever you like
 - A csv file that contains birthdays data
@@ -30,6 +30,10 @@ If your are using default csv file (```data/birthdays.csv```), just run :
 If you want to use a custom csv file use the fully qualified command line :
 
 ```mvn exec:java -DcsvFileName=CSV_FILENAME_PATH -DgiphyApiKey=YOUR_GIPHY_API_KEY -DslackWebhookUrl=YOUR_SLACK_WEBHOOK_URL```
+
+# How to get slack incoming webhook url
+
+
 
 # Deployment instructions
 
