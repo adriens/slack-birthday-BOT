@@ -23,7 +23,10 @@ All of these items are available for free.
 
 # Command line
 
-mvn exec:java -DgiphyApiKey=YOUR_GIPHY_API_KEY -DslackWebhookUrl=YOUR_SLACK_WEBHOOK_URL
+If your are using default csv file (```data/birthdays.csv```), just run :
+
+```mvn exec:java -DgiphyApiKey=YOUR_GIPHY_API_KEY -DslackWebhookUrl=YOUR_SLACK_WEBHOOK_URL```
+
 
 # Deployment instructions
 
