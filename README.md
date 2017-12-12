@@ -2,6 +2,9 @@
 
 A slack BOT that simply reminds Birthdays the funny way with animated random [Giphy](https://giphy.com/) GIFs... for free !
 
+![Demo](https://media.giphy.com/media/l3mZcB5FOVEWDGNsk/giphy.gif)
+
+
 # Goal
 
 The goal of this project is to make a  "BOT" that wishes happy birthday, on a dedicated channel.
@@ -54,5 +57,3 @@ and Travis CI can help, see dedicated section for that.
 
 - Thanks to [Gabriel Pedro](https://github.com/gpedro) for his very efficient [slack-webhook](https://github.com/gpedro/slack-webhook) library, and very kind support on my features requests
 - Thanks to [Mathias Markl](https://github.com/keshrath) for his [Giphy4J](https://github.com/keshrath/Giphy4J) Giphy lib
-
-
