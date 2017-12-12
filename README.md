@@ -27,6 +27,9 @@ If your are using default csv file (```data/birthdays.csv```), just run :
 
 ```mvn exec:java -DgiphyApiKey=YOUR_GIPHY_API_KEY -DslackWebhookUrl=YOUR_SLACK_WEBHOOK_URL```
 
+If you want to use a custom csv file use the fully qualified command line :
+
+```mvn exec:java -DcsvFileName=CSV_FILENAME_PATH -DgiphyApiKey=YOUR_GIPHY_API_KEY -DslackWebhookUrl=YOUR_SLACK_WEBHOOK_URL```
 
 # Deployment instructions
 
