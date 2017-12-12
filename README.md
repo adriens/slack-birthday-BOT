@@ -16,10 +16,18 @@ To make this integration operational, all you need is :
 - A slack Webhook url dedicated to the  ```birthdays``` channel (private or public)
 - A Giphy API token
 - A place to run your daily Job ([Travis cron jobs](https://docs.travis-ci.com/user/cron-jobs/) is a good place to do that so all your stuff is in the cloud)...but you can run it wherever you like
-- A csv file that contains birthdays data
+- A csv file that contains birthdays data (please take a look at ```data/birthdays.csv``` to get a running example)
 - A ```maven``` runtime (to make things easier to run ...)
 
 All of these items are available for free.
+
+# Setup birthdays csv (flat) database
+
+It's all in ```data/birthdays.csv``` : 
+
+- ```username``` and ```dob``` are mandatory,
+- ```username``` must be unique
+- ```dob``` is in format ```YYYY-MM-DD```
 
 # Command line
 
@@ -33,9 +41,14 @@ If you want to use a custom csv file use the fully qualified command line :
 
 # How to get slack incoming webhook url
 
-
+First, install the ```Incoming WebHooks``` app : https://slack.com/apps/A0F7XDUAZ-incoming-webhooks
+Configure it to target the ```birthdays``` channel
+Keep the url and keep it secret
 
 # Deployment instructions
+
+You can set in up localy on your workstation, on a server but...the best way is to deploy i ton the cloud...
+and Travis CI can help, see dedicated section for that.
 
 # Acknowledgements
 
