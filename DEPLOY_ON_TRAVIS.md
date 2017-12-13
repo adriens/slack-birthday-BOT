@@ -54,3 +54,8 @@ a test line to the current day targetting yourself so you'll test notifications.
 # Setup your Travis cron job
 
 ...and you're done.
+
+# Git tips
+
+To better manage birthdays greetings, you can create a dedicated branch and
+cron job only on that branch ;-p ...hence you are ready to perform PR on the project.
