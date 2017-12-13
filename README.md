@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/adriens/slack-birthday-BOT.svg?branch=master)](https://travis-ci.org/adriens/slack-birthday-BOT)
+
 # Slack birthday-BOT
 
 A slack BOT that simply reminds Birthdays the funny way with animated random [Giphy](https://giphy.com/) GIFs... for free ;-p
