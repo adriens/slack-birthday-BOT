@@ -64,6 +64,11 @@ Take care to schedule cron in the middle of the morning to get the best effect :
 it's muc more fun to get a live slack than to discover on when you
 arrive at the office : nothing beats the Slack "tac tac" with a punching GIF !
 
+# LinkedIn article
+
+https://www.linkedin.com/pulse/birthdays-bots-slack-travis-ci-cron-jobs-all-free-fun-adrien-sales/
+
+
 # Acknowledgements
 
 - Thanks to [Gabriel Pedro](https://github.com/gpedro) for his very efficient [slack-webhook](https://github.com/gpedro/slack-webhook) library, and very kind support on my features requests
