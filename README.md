@@ -55,6 +55,15 @@ Keep the url and keep it secret
 You can set in up localy on your workstation, on a server but...the best way is to deploy i ton the cloud...
 and Travis CI can help, see dedicated section for that.
 
+# Tips
+
+To better manage birthdays greetings, you can create a dedicated branch and
+cron job only on that branch ;-p ...hence you are ready to perform PR on the project.
+
+Take care to schedule cron in the middle of the morning to get the best effect :
+it's muc more fun to get a live slack than to discover on when you
+arrive at the office : nothing beats the Slack "tac tac" with a punching GIF !
+
 # Acknowledgements
 
 - Thanks to [Gabriel Pedro](https://github.com/gpedro) for his very efficient [slack-webhook](https://github.com/gpedro/slack-webhook) library, and very kind support on my features requests
