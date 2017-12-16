@@ -2,6 +2,8 @@
 
 # Slack birthday-BOT
 
+[![Join the chat at https://gitter.im/adriens/slack-birthday-BOT](https://badges.gitter.im/adriens/slack-birthday-BOT.svg)](https://gitter.im/adriens/slack-birthday-BOT?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A slack BOT that simply reminds Birthdays the funny way with animated random [Giphy](https://giphy.com/) GIFs... for free ;-p
 
 ![Demo](https://media.giphy.com/media/l3mZcB5FOVEWDGNsk/giphy.gif)
