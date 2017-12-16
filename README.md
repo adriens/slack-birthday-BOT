@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/adriens/slack-birthday-BOT.svg?branch=master)](https://travis-ci.org/adriens/slack-birthday-BOT) [![Dependency Status](https://beta.gemnasium.com/badges/github.com/adriens/slack-birthday-BOT.svg)](https://beta.gemnasium.com/projects/github.com/adriens/slack-birthday-BOT)
+[![Build Status](https://travis-ci.org/adriens/slack-birthday-BOT.svg?branch=master)](https://travis-ci.org/adriens/slack-birthday-BOT) [![Dependency Status](https://beta.gemnasium.com/badges/github.com/adriens/slack-birthday-BOT.svg)](https://beta.gemnasium.com/projects/github.com/adriens/slack-birthday-BOT) [![Gitter](https://badges.gitter.im/adriens/slack-birthday-BOT.svg)](https://gitter.im/adriens/slack-birthday-BOT?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Slack birthday-BOT
 
