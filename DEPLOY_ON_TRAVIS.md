@@ -19,8 +19,10 @@ jdk:
 - oraclejdk8
 install: mvn install
 script:
+- export TZ=YourTimeZone
 - mvn exec:java -DgiphyApiKey=$GIPHY_API_KEY -DslackWebhookUrl=$SLACK_WEBHOOK_URL
 ```
+And replace YourTimeZone by the good timezone : https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Encrypt keys
 
