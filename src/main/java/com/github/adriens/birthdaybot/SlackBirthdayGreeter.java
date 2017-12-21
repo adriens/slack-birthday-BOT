@@ -34,6 +34,7 @@ public class SlackBirthdayGreeter {
     public final static String BOT_SLACK_TITLE = "Time to celebrate a Happy Birthday !";
     public final static String BOT_SLACK_ICON = ":birthday:"; // Ref - http://www.emoji-cheat-sheet.com/
     public final static String BOT_SLACK_CHANNEL = "#birthdays";
+    public final static String CSV_DEFAULT_FILENAME = "data/birthdays.csv";
     
     private final Logger logger = LoggerFactory.getLogger(SlackBirthdayGreeter.class);
 
