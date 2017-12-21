@@ -29,7 +29,7 @@ public class MavenExecRunner {
         
         // getting csv filename
         logger.info("Getting csvFilename from property <csvFileName> ...");
-        csvFileName = System.getProperty("csvFileName", "data/birthdays.csv");
+        csvFileName = System.getProperty("csvFileName", SlackBirthdayGreeter.CSV_DEFAULT_FILENAME);
         logger.info("Got <" + csvFileName + "> as input csvFileName");
         
         // getting giphyApiKey Key
