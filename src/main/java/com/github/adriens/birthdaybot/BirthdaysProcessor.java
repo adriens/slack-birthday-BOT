@@ -75,6 +75,31 @@ public class BirthdaysProcessor {
         logger.info("Found <" + counter + "> birthday(s) to celebrate today.");
         return out;
     }
+    public ArrayList<Birthday> getAllBirthdays() throws SQLException {
+        logger.info("Retrieving birtdays of today ...");
+        ArrayList<Birthday> out = new ArrayList<Birthday>();
+        Statement stmt = this.conn.createStatement();
+        ResultSet rs = stmt.executeQuery("select * from _birthdays");
+        String lUser;
+        Date lDate;
+        String lMsg;
+        Birthday lBirth;
+        int counter = 0;
+        while (rs.next()){
+            lUser = rs.getString("username");
+            lDate = rs.getDate("dob");
+            logger.info(rs.getString("dob"));
+            logger.info(rs.getString("username"));
+            logger.info(rs.getString("msg"));
+            lMsg = rs.getString("msg");
+            lBirth = new Birthday(lUser, lDate, lMsg);
+            out.add(lBirth);
+            counter++;
+            logger.info("Found new birtday to add : " + lBirth);
+        }
+        logger.info("Found <" + counter + "> birthday(s)");
+        return out;
+    }
     
     public void sendMessages() throws SQLException, GiphyException {
         ArrayList<Birthday> bdates = getBirthdaysOfTheDay();
