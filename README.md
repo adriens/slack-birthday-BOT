@@ -53,7 +53,7 @@ If you want to use a custom csv file use the fully qualified command line :
 # Deployment instructions
 
 You can set in up localy on your workstation, on a server but...the best way is to deploy it on the cloud...
-and Travis CI can help, see dedicated section for that.
+and Travis CI can help, see dedicated Travis instruction in ```DEPLOY_ON_TRAVIS.md``` for that.
 
 # Tips
 
