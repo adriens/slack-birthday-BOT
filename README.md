@@ -61,7 +61,7 @@ To better manage birthdays greetings, you can create a dedicated branch and
 cron job only on that branch ;-p ...hence you are ready to perform PR on the project.
 
 Take care to schedule cron in the middle of the morning to get the best effect :
-it's muc more fun to get a live slack than to discover on when you
+it's much more fun to get a live slack than to discover on when you
 arrive at the office : nothing beats the Slack "tac tac" with a punching GIF !
 
 # LinkedIn article
