@@ -31,7 +31,7 @@ All of these items are available for free.
 It's all in ```data/birthdays.csv``` : 
 
 - ```username``` and ```dob``` are mandatory,
-- ```username``` must be unique (the slack username, without the ```@```)
+- ```username``` must be unique in the csv (the slack username, without the ```@```)
 - ```dob``` is in format ```YYYY-MM-DD```
 
 # Command line
