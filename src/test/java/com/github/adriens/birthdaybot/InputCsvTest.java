@@ -10,6 +10,7 @@ import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Iterator;
 import org.junit.Assert;
@@ -42,10 +43,14 @@ public class InputCsvTest {
             Birthday lBirth;
             String birthDate;
              SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+             Calendar cal = Calendar.getInstance();
             while (birthIter.hasNext()){
                 lBirth = birthIter.next();
                 Date convertedCurrentDate = sdf.parse(lBirth.getBirthDate().toString());
                 System.out.println("birthDate : <" + lBirth.getBirthDate() + ">");
+                cal.setTime(lBirth.getBirthDate());
+                Assert.assertTrue("People should be born at least after 1900", cal.get(Calendar.YEAR) > 1900);
+                
             }
             
             
