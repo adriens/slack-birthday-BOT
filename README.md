@@ -47,8 +47,8 @@ If you want to use a custom csv file use the fully qualified command line :
 # How to get slack incoming webhook url
 
 - First, install the ```Incoming WebHooks``` app : https://slack.com/apps/A0F7XDUAZ-incoming-webhooks
-- Configure it to target the ```birthdays``` channel
-- Keep the url and keep it secret
+- Configure it to target the ```#birthdays``` channel
+- Keep the url ***and keep it secret***
 
 # Deployment instructions
 
