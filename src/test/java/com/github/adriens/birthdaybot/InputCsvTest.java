@@ -14,7 +14,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Iterator;
 import org.junit.Assert;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 /**
@@ -48,6 +47,7 @@ public class InputCsvTest {
                 lBirth = birthIter.next();
                 Date convertedCurrentDate = sdf.parse(lBirth.getBirthDate().toString());
                 System.out.println("birthDate : <" + lBirth.getBirthDate() + ">");
+                System.out.println(lBirth);
                 cal.setTime(lBirth.getBirthDate());
                 Assert.assertTrue("People should be born at least after 1900", cal.get(Calendar.YEAR) > 1900);
                 
