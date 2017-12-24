@@ -18,10 +18,17 @@ import java.util.Date;
  */
 public class Birthday {
 
+    
+    
+    private void setCurrentAge(){
+        this.currentAge = Birthday.getAge(getBirthDate());
+    }
+
     private String userName;
     private Date birthDate;
     private String message;
-
+    private int currentAge;
+    
     public Birthday() {
 
     }
@@ -29,17 +36,19 @@ public class Birthday {
     public Birthday(String userName, Date birthDate) {
         this.userName = userName;
         this.birthDate = birthDate;
+        setCurrentAge();
     }
 
     public Birthday(String userName, Date birthDate, String message) {
         this.userName = userName;
         this.birthDate = birthDate;
         this.message = message;
+        setCurrentAge();
     }
 
     public int getCurrentAge() {
         //return computeAge(getBirthDate());
-        return Birthday.getAge(getBirthDate());
+        return this.currentAge;
     }
 
     public String toString() {
